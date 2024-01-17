@@ -22,7 +22,7 @@ app.event('link', async ({ event, ack }) => {
 
   await app.api.messages.extend(event.body.message_id, {
     body: {
-      type: 'video',
+      type: 'web',
       url: `https://www.youtube.com/embed/${videoId}`
     }
   });

@@ -10,6 +10,7 @@
 	"events": [],
 	"shortcuts": {},
 	"link_domains": [
-		"https://www.youtube.com"
+		"https://www.youtube.com",
+    "https://www.m.youtube.com"
 	]
 }
